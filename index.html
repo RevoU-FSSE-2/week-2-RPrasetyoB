@@ -8,15 +8,22 @@
 </head>
 <body>
     <nav class="top-nav">
+        <span>
+            <img class="hamburger-icon" src="./image/pngaaa.com-2275920.png" alt="hamburger icon" onclick="menu()">
+        </span>
+        <span>
+            <img class="cat-icon" src="https://media.tenor.com/oFeQLr4R2zQAAAAi/peach-cat-cute.gif" alt="cat icon">
+        </span>
+        <span class="letter-head">
+            <h3>Cat Owner Club</h3>
+        </span>
         <ul>
             <li class="home">
-                Home
+                <a href="/">Home</a>
             </li>
-            <li class="about">
-                About
+            <li class="about"><a href="https://revou.co/" target="_blank">About</a>
             </li>
-            <li class="contact">
-                Contact Us
+            <li class="contact"><a href="https://revou.co/" target="_blank">Contact Us</a>
             </li>
         </ul>
     </nav>
@@ -29,19 +36,26 @@
         </p>
     </header>
     <main>
-        <section>
-            <h2>
+        <section class = "benefit">
+            <h3>
                 Benefit of Owning a Cat
-            </h2>
+            </h3>
             <p>
-                Serve a cat can be an extremely rewarding relationship. A cat has the ability to both calm your nervous system and provide an immediate outlet for fun and play.
+                Serve a cat can be an extremely rewarding relationship.<br>A cat has the ability to both calm your nervous system and provide an immediate outlet for fun and play.
             </p>
-            <img src="#">
+            <div class="grid-image">
+                <ul>
+                    <li><img src="./image/cat4.jpg" alt="cat photo"></li>
+                    <li><img src="./image/cat3.jpg" alt="cat photo"></li>
+                    <li><img src="./image/cat2.jpg" alt="cat photo"></li>
+                    <li><img src="./image/cat1.jpg" alt="cat photo"></li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h2>
+        <section class="anatomy">
+            <h3>
                 Cat Anatomy
-            </h2>
+            </h3>
             <ul>
                 <li>
                     Expressive Tail
@@ -57,8 +71,8 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Tips How to pet Cat</h2>
+        <section class="tips">
+            <h3>Tips How to pet Cat</h3>
             <ol>
                 <li>
                     Rule No.1 your Cat is Queen and your existence is for serve the Queen
@@ -78,12 +92,12 @@
             </ol>
         </section>
         <section id="section-video">
-            <h2>Folowing video contained a Creature that more Dangerous than Cat</h2>
-            <div class="video">
-                <iframe src="https://www.veed.io/embed/01e25ba6-b8cf-4412-bcfa-7e3c08387333" width="744" height="504" frameborder="0" title="KuruShutUp" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <h3>Folowing video contained a Creature that more Dangerous than Cat</h3>
+            <div>
+                <iframe alt="video of kuru kuru" src="https://www.veed.io/embed/01e25ba6-b8cf-4412-bcfa-7e3c08387333" width="600" height="525" frameborder="0" title="KuruShutUp" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </section>
-        <section>
+        <section class="section-form">
             <h2>
                 Servant Registration Form
             </h2>
@@ -101,19 +115,19 @@
                         <input id="email" type="email" required>
                     </div>
                     <div>
-                        <p>Are you ready be a servant?</p>
+                        <p style="margin-bottom: 5px;">Are you ready be a servant?</p>
                         <input id="servant-yes" type="radio"  name="beservant" value="yes">
                         <label for="servant-yes">Yes</label>
                         <input id="servant-no" type="radio" name="beservant" value="no">
                         <label for="servant-No">No</label>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="loyalty">
                     <legend>
                         Loyalty Check
                     </legend>
-                    <div>
-                        <p>What do you think about a Cat?</p>
+                    <div id="think-about">
+                        <p id="radio">What do you think about a Cat?</p>
                         <input id="ugly" type="checkbox" name="why" onclick="dont()">
                         <label for="ugly">Ugly</label>
                         <input id="gorgeous" type="checkbox" name="why">
@@ -123,21 +137,21 @@
                         <input id="cute" type="checkbox" name="why">
                         <label for="cute">Cute</label>
                     </div>
-                    <div>
-                        <p>Tell us why you want Serve the cat</p>
+                    <div id="tell-us">
+                        <p>Tell us why you want Serve the cat?</p>
                         <textarea rows="4"></textarea>
                     </div>
-                    <div>
+                    <div id="photo">
                         <p>Upload your Majestic Cat picture here:</p>
-                        <input type="file" id="photo" name="myPenguinPhoto" required accept="image/png, image/jpeg">
+                        <input type="file" id="upload" name="catphoto" required accept="image/png, image/jpeg">
                     </div>
                 </fieldset>
-                <button type="submit">Submit</button>
+                <button type="submit">SUBMIT</button>
             </form>
         </section>
     </main>
     <footer>
-        RPB©Copyright 2023
+        Copyright ©2023 RPB. All reserved
     </footer>
     <script src="/js/index.js"></script>
 </body>
