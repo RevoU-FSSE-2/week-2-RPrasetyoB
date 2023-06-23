@@ -414,10 +414,17 @@ footer{
         font-size: small;
         line-height: 20px;
     }
+    
     .anatomy ul li{
         font-size: smaller;
         line-height: 20px;
     }
+
+    .tips h3{
+        font-size: medium;
+        margin-right: 30vw;
+    }
+
     .tips ol li{
         line-height: 20px;
         font-size: smaller;
