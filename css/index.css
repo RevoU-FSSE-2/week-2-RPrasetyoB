@@ -179,7 +179,8 @@ figure{
 
 figure img{
     flex: auto;
-    width: 40vw;
+    width: auto;
+    max-width: 40vw;
     margin-top: 0px;
     border-radius: 5px;
     margin-left: 3%;
@@ -200,12 +201,28 @@ figure img{
 }
 
 .tips{
-    position: inherit;
-    margin-top: 38vw;
-    margin-left: 1%;
+    text-align: center;
+    margin-top: 33vw;
+}
+
+.tips h3{
+    text-align: right;
+    margin-bottom: 5px;
+    margin-right: 50vw;
 }
 .tips ol li{
     font-size: large;
+    text-align: left;
+    margin-left: 20vw;
+    margin-right: 8vw;
+}
+
+.cat-pulling{
+    margin-top: 20px;
+    width: 40vw;
+    border-radius: 5px;
+    margin-right: 6%;
+    margin-bottom: 5%;
 }
 
 .section-video{
@@ -295,6 +312,13 @@ footer{
     border-top: #c5c1c1 5px double;
 }
 
+@media screen and (max-width: 1300px){
+    .tips ol li{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
 @media screen and (max-width: 810px){
     nav > ul > li{
         display: none;
@@ -343,11 +367,11 @@ footer{
     }
 
     .tips{
-        margin-top: 30%;
+        margin-top: 250px;
     }
 
     .tips ol li{
-        margin-left: 0;
+        margin-left: 1vw;
         margin-right: 10%;
         font-size: medium;
     }
@@ -376,6 +400,13 @@ footer{
         height: 200px;
     }
   
+}
+
+@media screen and (max-width: 650px){
+    .tips{
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width: 500px){

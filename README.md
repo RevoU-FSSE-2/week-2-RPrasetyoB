@@ -1,10 +1,13 @@
-#Revou BootCamp Week2 Project
+# Revou BootCamp Week2 Project
+
 This Repository for my 2nd assignment in Revou Fullstack Software Engineer Bootcamp
 
-##Website Content
+## Website Content
+
 Main content is about Cat owner life and Cat Article
 
-##Developer Tools and Elements
--HTML5      : title, head, figure, figcaption, section, header, footer.
--CSS        : color, font, background, media query, grid.
--JavaScript : function.
+## Developer Tools and Elements
+[![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
+- HTML5      : title, head, body, figure, figcaption, section, form, fieldset, header, footer.
+- CSS        : color, font styling, background, media query, grid.
+- JavaScript : function onclick
