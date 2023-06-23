@@ -1,1 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6H2sAzcR)
+#Revou BootCamp Week2 Project
+This Repository for my 2nd assignment in Revou Fullstack Software Engineer Bootcamp
+
+##Website Content
+Main content is about Cat owner life and Cat Article
+
+##Developer Tools and Elements
+-HTML5      : title, head, figure, figcaption, section, header, footer.
+-CSS        : color, font, background, media query, grid.
+-JavaScript : function.
