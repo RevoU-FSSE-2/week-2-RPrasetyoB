@@ -120,7 +120,7 @@ h3{
 
 .grid-image{
     margin: auto;
-    margin-right: 5%;
+    margin-right: 2%;
     padding: 10px;
 }
 
@@ -169,53 +169,40 @@ h3{
 }
 
 .anatomy{
-    position: relative;
-    margin-bottom: 100px;
-    margin-top: 50px;
+    gap: 10px;
+    display: flex;
+    margin-top: 1%;
+    padding-top: 20px;
 }
 
-figure{
-    float: left;
-}
-
-figure img{
-    flex: auto;
-    width: auto;
-    max-width: 40vw;
-    margin-top: 0px;
+.cat-dabbing img{
+    width: 35vw;
     border-radius: 5px;
     margin-left: 3%;
 }
 
-.anatomy h3{
-    float: inline-start;
-    margin-right: auto;
-    padding: 10px;
-    margin-left: 50%;
-}
+.cat-anatomy h3{
+    margin-left: 10%;
 
-.anatomy ul li{
-    float: inline-start;
-    font-size: large;
-    margin-left: 50%;
-    margin-right: 5%;
 }
 
 .tips{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 33vw;
+    margin-top: 1%;
+    margin-right: 5%;
 }
 
 .tips h3{
-    text-align: right;
+    text-align: left;
+    margin-left: 15vw;
     margin-bottom: 5px;
-    margin-right: 50vw;
 }
 .tips ol li{
     font-size: large;
     text-align: left;
-    margin-left: 20vw;
-    margin-right: 8vw;
+    margin-left: 12vw;
 }
 
 .cat-pulling{
@@ -320,7 +307,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 810px){
+@media screen and (max-width: 770px){
     nav > ul > li{
         display: none;
     }
@@ -362,25 +349,11 @@ footer{
         font-size: medium;
     }
 
-    .anatomy ul li{
-        margin-right: 10%;
-        font-size: medium;
-    }
-
-    .tips{
-        margin-top: 250px;
-    }
-
-    .tips ol li{
-        margin-left: 1vw;
-        margin-right: 10%;
-        font-size: medium;
-    }
-
     .grid-image ul li:nth-child(1){
         grid-row: span 2;
         grid-column: span 2;
     }
+
     .grid-image ul li:nth-child(2){
         grid-row: span 2;
         grid-column: span 6;
@@ -396,18 +369,19 @@ footer{
             grid-column: span 4;
     }
 
+    .cat-anatomy ul li{
+        font-size: small;
+    }
+
+    .tips ol li{
+        font-size: small;
+    }
+
     iframe{
         width: 400px;
         height: 200px;
     }
   
-}
-
-@media screen and (max-width: 650px){
-    .tips{
-        margin-top: 10px;
-    }
-
 }
 
 @media screen and (max-width: 500px){
@@ -424,6 +398,23 @@ footer{
         line-height: 20px;
     }
     
+    .anatomy{
+        flex-direction: column;
+    }
+
+    .anatomy .cat-dabbing img{
+        width: 92%;
+        margin-right: 10%;
+    }
+
+    .anatomy figcaption{
+        font-size: x-small;
+    }
+
+    .anatomy h3{
+        font-size: small;
+    }
+
     .anatomy ul li{
         font-size: smaller;
         line-height: 20px;
@@ -431,12 +422,13 @@ footer{
 
     .tips h3{
         font-size: medium;
-        margin-right: 30vw;
     }
 
     .tips ol li{
         line-height: 20px;
-        font-size: smaller;
+        font-size: x-small;
+        margin: auto;
+        margin-right: 5%;
 
     }
 
@@ -469,13 +461,13 @@ footer{
         margin-left: 10%;
     }
 
-    figure img{
-        margin-top: 20%;
-        margin-bottom: 1%;
+    .cat-anatomy ul li{
+        font-size: x-small;
     }
 
     .tips h3{
-        margin-top: 1%%;
+        margin-top: 1%;
+        font-size: small;
     }
 
     .loyalty div{
