@@ -123,12 +123,20 @@
                         <label for="email">Email Adress</label>
                         <input id="email" type="email" placeholder="Enter your Email here" required>
                     </div>
-                    <div>
-                        <p style="margin-bottom: 5px;">Are you ready to be a servant?</p>
-                        <input id="servant-yes" type="radio"  name="beservant" value="yes">
-                        <label for="servant-yes">Yes</label>
-                        <input id="servant-no" type="radio" name="beservant" value="no">
-                        <label for="servant-No">No</label>
+                    <div class="radio-choice">
+                        <div>
+                            <p style="margin-bottom: 5px;">Are you ready to be a servant?</p>
+                            <input id="servant-no" type="radio" name="beservant" value="no" onclick="img(0)">
+                            <label for="servant-no">No</label>
+                            <input id="servant-yes" type="radio"  name="beservant" value="yes" onclick="img(1)">
+                            <label for="servant-yes">Yes</label>
+                        </div>
+                        <div class="radio-img1">
+                            <img id="bite" src="./image/angy.jpg">
+                        </div>
+                        <div class="radio-img2">
+                            <img id="yay" src="./image/blessed.jpg">
+                        </div>
                     </div>
                 </fieldset>
                 <fieldset class="loyalty">
